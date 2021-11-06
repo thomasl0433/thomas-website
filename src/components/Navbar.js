@@ -12,7 +12,7 @@ export const Navbar = () => {
     w-full h-14
     rounded-b-md
     text-white">
-      <h1 className="">Thomas Levine</h1>
+      <h1 className="thomas-name text-3xl">Thomas Levine</h1>
       <div></div>
       <div></div>
       <div className="
