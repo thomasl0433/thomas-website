@@ -1,6 +1,6 @@
 import React from "react";
 import pic from "../assets/8038_Thomas Levine_VA003FGD D.jpg";
-import './Landing.css';
+import "./Landing.css";
 
 export const Landing = () => {
   return (
@@ -16,10 +16,16 @@ export const Landing = () => {
         "
       >
         <div className="flex justify-center">
-          <img src={pic} alt="headshot" className="rounded-xl w-72 h-72 shadow-xl" />
+          <img
+            src={pic}
+            alt="headshot"
+            className="rounded-xl w-72 h-72 shadow-xl"
+          />
         </div>
         <div className="space-y-8">
-          <h1 className="shadow-xl text-5xl bg-green-300 rounded-lg w-auto inline-block p-2.5 ml-5">Welcome!</h1>
+          <h1 className="shadow-xl text-5xl bg-green-300 rounded-lg w-auto inline-block p-2.5 ml-5">
+            Welcome!
+          </h1>
           <p className="bg-gray-100 rounded-lg shadow-lg p-2.5">
             My name is Thomas Levine, and I love to learn how things work. I am
             currently working on several projects to explore the intersection of
@@ -32,16 +38,19 @@ export const Landing = () => {
         </div>
       </div>
       <div className="w-4/5 mx-auto mt-32">
-          <hr/>
-          <h1 className="text-3xl">Featured in</h1>
-          <div className="shadow-inner rounded-md bg-gray-100">
-            <ul className="divide-y-2 divide-solid">
-                <li>Cren</li>
-                <li>Cren</li>
-                <li>Cren</li>
-                <li>Cren</li>
-            </ul>
-          </div>
+        <hr />
+        <h1 className="mt-5 mb-5 text-3xl">Pinned Articles</h1>
+        <div className="shadow-inner rounded-md bg-gray-100 py-2.5 px-2.5">
+          <ul className="divide-y-2 divide-solid">
+            <li>
+              <h3>Complete Beginner's Guide to Music Theory</h3>
+              {/* https://blog.intheloopstudio.com/complete-beginners-guide-to-music-theory?fbclid=IwAR1EuN9OvEEAAPbT5D7Pr3C4r1EnBV_njsPXsP3fZFY9Q8GLr5LyD_-UTgw */}
+            </li>
+            <li>Cren</li>
+            <li>Cren</li>
+            <li>Cren</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
