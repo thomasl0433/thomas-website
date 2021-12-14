@@ -18,9 +18,9 @@ export const Navbar = () => {
       <div className="
       flex flex-row
       w-32 space-x-10">
-        <h3>About</h3>
+        {/* <h3>About</h3>
         <h3>Projects</h3>
-        <h3>Contact</h3>
+        <h3>Contact</h3> */}
       </div>
     </div>
   );
